@@ -1,7 +1,10 @@
 
 # form3-account-sdk #
 
+[![go-github release (latest SemVer)](https://img.shields.io/github/v/release/mkindika/form3?sort=semver)](https://github.com/google/go-github/releases)
+
 form3-account-sdk is a Go client library for accessing the [Form3 API v1][].
+Form3 Take Home Exercise - Indika Munaweera
 
 ## Disclaimer ##
 
