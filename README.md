@@ -5,8 +5,8 @@ form3-account-sdk is a Go client library for accessing the [Form3 API v1][].
 
 ## Disclaimer ##
 
-Please note that this my first Go project and I have been working improving my Go language skills. 
-This client libary provide fetch, create and delete operations on the account resource.
+Please note that this is my first Go project and I have been working to improve my Go language skills. 
+This client libary provides [Fetch][], [Create][] and [Delete][] operations on the account resource.
 
 ## Installation ##
 
@@ -62,3 +62,6 @@ client := form3.NewClient().WithHttpClient(httpClient)
 These test are excuted against the dockerized mock account API. 
 
 [Form3 API v1]: https://api-docs.form3.tech/api.html
+[Fetch]: https://api-docs.form3.tech/api.html#organisation-accounts-fetch
+[Create]: https://api-docs.form3.tech/api.html#organisation-accounts-create
+[Delete]: https://api-docs.form3.tech/api.html#organisation-accounts-delete
